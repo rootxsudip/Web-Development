@@ -1,0 +1,3 @@
+# Selector (All)
+
+Method: querySelectorAll()

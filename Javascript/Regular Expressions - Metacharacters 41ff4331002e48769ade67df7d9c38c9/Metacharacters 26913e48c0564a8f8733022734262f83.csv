@@ -1,0 +1,12 @@
+﻿Character,Explanation,Example
+.,This metacharacter allows any character,matches any character
++,This character allows one or more preceding term,"/ah+x/ matches """"ahx"" or ""ahhhhhhhx"""
+*,This character allows zero or more preceding term,"/ah*x/ matches ""aax"", ""ahx"", or ""ahhhhx"""
+?,This character allows zero or one preceding term,"/ah?x/ matches ""aax"" and ""ahx"" but not ""ahhx"""
+\.,This character allows a period(.) in the text,"/etc\./ matches ""etc."""
+\/,This character allows forward slash in the text.,"/.+\/.+/ matches ""home/my"""
+\*,This character allows asterik in the text.,"/my\*name/ matches ""my*name"""
+\+,This character allows Plus sign in the text.,"/.+ \+ .+/ matches ""five + four"""
+\?,This character allows question mark in the text.,"/.+\?/ matches ""really?"""
+^,The string should begin with the specified word written after this character.,"/^Bye/ matches ""Bye"" in ""Bye Harry"""
+$,The string should end with the specified word written before this character.,"/Harry$/ matches ""Harry"" in ""and Harry"""

@@ -1,0 +1,5 @@
+﻿Property,for..in,for..of
+Applies to,Enumerable Properties,No
+Objects,Yes,No
+Arrays,"Yes, but not advised",Yes
+Strings,"Yes, but not advised",Yes

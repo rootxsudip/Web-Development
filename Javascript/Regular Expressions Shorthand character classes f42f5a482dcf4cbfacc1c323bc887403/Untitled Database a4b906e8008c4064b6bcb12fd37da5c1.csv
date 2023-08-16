@@ -1,0 +1,14 @@
+﻿Character,DESCRIPTION,Example
+\d,This character means any digit character; functionally equivalent to [0-9] or [[:digit:]],"\d matches 1,56,77 12, 123, etc., but not 1b7 or aabb6. One or more of any digit characters."
+\D,This character means any non-digit character; functionally equivalent to [^0-9] or [^[:digit:]],"\D matches a, ab, abcd, ab&, but not 1."
+\w,"This character means any ""word"" character. That is, any alphanumeric 
+character and its functionally equivalent to [_A-Za-z0-9] or 
+[_[:alnum:]]","\w matches a, ab, a1,abc123 but not !&. One or more upper- or 
+lower-case letters or digits, but not punctuation or other special 
+symbols/characters."
+\W,This character means any non-alphanumeric character; functionally equivalent to [^_A-Za-z0-9] or [^_[:alnum:]],"\W matches *, &, but not race or y1. One or more of any character but upper- or lower-case letters and digits."
+\s,"This character means any white space character; space, new line, tab,
+ non-breaking space, etc.; functionally equivalent to [[:space]]","vegetable\s matches ""vegetable"" followed by any non-white space character."
+\S,"This character means any non-whitespace character; anything other 
+than space, newline, tab, non-breaking space, etc.; functionally 
+equivalent to [^[: space]]","vegetable\S matches ""vegetable"" followed by any non-whitespace character."

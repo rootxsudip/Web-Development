@@ -1,0 +1,7 @@
+﻿Quantifier,Description
+*,It matches zero or more times.
++,It matches one or more times.
+?,It matches zero or one time.
+{ x },It matches exactly x times.
+"{x ,}",It matches at least x times.
+"{ x, y }",It matches from x to y times.

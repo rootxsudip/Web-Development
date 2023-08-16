@@ -1,0 +1,3 @@
+# Selector (Single)
+
+Method: querySelector()

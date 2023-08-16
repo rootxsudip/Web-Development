@@ -1,0 +1,7 @@
+﻿Gets,Selector Syntax,Method
+ID,#name,getElementById()
+Class,.name,getElementByClassName()
+Tag,name,getElemetsByTagName()
+Selector (Single),,querySelector()
+Selector (All),,querySelectorAll()
+,,
